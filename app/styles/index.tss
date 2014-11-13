@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor: "white"
+	backgroundColor: "white",
+	tabBarHidden:true
 }
 
 "Label": {
@@ -13,12 +14,17 @@
 		fontSize: 20
 	}
 }
-"#image_view":{
-	image:"/lib/welcome.png",
-	width: Ti.UI.FILL
+"#btn_login":{
+	top:234,
+	width:120,
+	height:30
 }
-"#login_background":{
-	image:"/lib/login/login_background.png",
-	top:20,
-	left:20
-}
+//"#image_view":{
+	//image:"/lib/welcome.png",
+	//width: Ti.UI.FILL
+//}
+//"#image_login":{
+	//image:"/lib/login/login_background.png",
+//}
+
+

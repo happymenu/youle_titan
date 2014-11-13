@@ -1,0 +1,6 @@
+<Alloy>
+	<Window backgroundImage="/lib/main_page/main_bg.png">
+		<ImageView id="main_flower" image="/lib/main_page/main_flower.png"></ImageView>
+		<ImageView id="main_top_right" image="/lib/main_page/main_top_right.png"></ImageView>
+	</Window>
+</Alloy>

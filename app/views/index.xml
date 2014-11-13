@@ -1,6 +1,14 @@
 <Alloy>
 	<Window class="container">
 		<Label id="label" onClick="doClick">Hello, there is youle</Label>
-		<ImageView id="image_view"></ImageView>
+		<!--
+			<ImageView id="image_view"></ImageView>
+		<ImageView id="image_login"></ImageView>
+	-->
+	<View id="login_welcome" backgroundImage="/lib/welcome.png">
+		<ImageView id="login_background" image="/lib/login/login_all.png"></ImageView>
+		<!--<Button id="btn_login" onClick="do_login"></Button>-->
+		<ImageView id="btn_login" onClick="do_login"></ImageView>
+	</View>
 	</Window>
 </Alloy>
