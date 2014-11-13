@@ -3,5 +3,40 @@
   
 }
 "#main_flower":{
-	center:true
+	top:95,
+	width:'80%'
 }
+"#btn_house":{
+	top:180,
+	width:'20%',
+	height:'17%',
+	backgroundColor:'transparent'	
+}
+"#btn_camera":{
+	top:116,
+	width:'25%',
+	height:'15%',
+	backgroundColor:'transparent'
+}
+"#btn_check":{
+	top:165,
+	left:60,
+	width:'20%',
+	height:'21%',
+	backgroundColor:'transparent'
+}
+"#btn_search":{
+	top:250,
+	width:'25%',
+	height:'15%',
+	backgroundColor:'transparent'
+}
+"#btn_shopping":{
+	top:165,
+	left:200,
+	width:'20%',
+	height:'20%',
+	backgroundColor:'transparent'
+}
+
+

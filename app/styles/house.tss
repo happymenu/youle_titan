@@ -1,0 +1,17 @@
+
+".container" : {
+  
+}
+"#scroll_view":{
+	top:70
+}
+"#topbg":{
+	top:0,
+	width:'100%',
+	height:'25%'
+}
+"#back":{
+	top:100,
+	left:50,
+	zIndex:2
+}

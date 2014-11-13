@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id="topbg" image="/lib/topbg.png"></ImageView>
+		<ScrollView id="scroll_view" contentWidth="auto" width="100%">
+			<ImageView id="back" image="/lib/back.png"></ImageView>
+			<ImageView id="in_house_image" image="/lib/main_page/in_house_image.png" width="100%"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>
