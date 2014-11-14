@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView contentWidth="auto" width="100%">
+			<ImageView image="/lib/search/yuezi_mom.jpg" width="100%"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

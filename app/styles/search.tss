@@ -2,3 +2,36 @@
 ".container" : {
   
 }
+"#search_main":{
+	top:0,
+	width:'100%',
+	height:'100%'
+}
+"#back":{
+	top:70,
+	left:5,
+	zIndex:2
+}
+"#topbg":{
+	top:0,
+	width:'100%',
+	height:'25%'
+}
+"#search_bar":{
+	top:113,
+	left:50,
+	width:200,
+	height:40,
+	zIndex:3,
+	hintText:'   请输入...',
+	showCancel:false,
+	backgroundImage:'/lib/search/search_icon.png',
+	barColor:'transparent'
+}
+"#btn_know":{
+	top:260,
+	left:40,
+	width:'30%',
+	height:'20%',
+	backgroundColor:'transparent'
+}

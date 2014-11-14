@@ -1,3 +1,6 @@
 <Alloy>
-	<Window class="container"></Window>
+	<Window class="container">
+		<ImageView id="check_main" image="/lib/check/check_main.png"></ImageView>
+		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
+	</Window>
 </Alloy>

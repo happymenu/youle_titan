@@ -1,0 +1,57 @@
+
+".container" : {
+  
+}
+"#id_know_lib":{
+	top:0,
+	width:'100%',
+	height:'100%'
+}
+"#main_top_right":{
+	top:0,
+	width:'100%',
+	height:'25%',
+	zIndex:2
+}
+"#yuezi_mom":{
+	top:'20%',
+	width:'50%',
+	height:'6%',
+	backgroundColor:'lightgray'
+}
+"#dictionary":{
+	top:'28%',
+	width:'50%',
+	height:'6%',
+	backgroundColor:'lightgray'
+}
+"#yuezi_baby":{
+	top:'36%',
+	width:'50%',
+	height:'6%',
+	backgroundColor:'lightgray'
+}
+"#grow_up":{
+	top:'44%',
+	width:'50%',
+	height:'6%',
+	backgroundColor:'lightgray'
+}
+"#privacy":{
+	top:'52%',
+	width:'50%',
+	height:'6%',
+	backgroundColor:'lightgray'
+}
+"#make_love":{
+	top:'60%',
+	width:'70%',
+	height:'13%',
+	backgroundColor:'lightgray'
+}
+"#cock_hen":{
+	top:'76%',
+	width:'70%',
+	height:'13%',
+	backgroundColor:'lightgray'
+}

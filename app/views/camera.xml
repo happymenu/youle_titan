@@ -1,5 +1,6 @@
 <Alloy>
 	<Window class="container">
-		
+		<ImageView id="diary" image="/lib/camera/diary.png"></ImageView>
+		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
 	</Window>
 </Alloy>
