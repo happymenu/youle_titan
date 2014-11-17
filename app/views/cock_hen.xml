@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView width="100%">
+			<Button id="back" onClick="back"></Button>
+		<ImageView id="cock" image="/lib/search/cock_hen.jpg" top="0" width="100%"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

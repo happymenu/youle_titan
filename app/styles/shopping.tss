@@ -7,7 +7,25 @@
 	height:'100%'
 }
 "#back":{
-	top:70,
+	top:75,
 	left:5,
 	zIndex:3
+}
+"#stay":{
+	left:0,
+	bottom:0,
+	width:'50%',
+	height:'35%',
+	backgroundColor:'transparent'
+}
+"#search_bar":{
+	top:125,
+	left:60,
+	width:200,
+	height:40,
+	zIndex:3,
+	hintText:'   请输入...',
+	showCancel:false,
+	backgroundImage:'/lib/search/search_icon.png',
+	accessibilityHidden:true
 }

@@ -1,6 +1,8 @@
 <Alloy>
 	<Window class="container">
+		<SearchBar id="search_bar"></SearchBar>
 		<ImageView id="shopping_main" image="/lib/shopping/shopping.png"></ImageView>
 		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
+		<Button id="stay" onClick="stay"></Button>
 	</Window>
 </Alloy>

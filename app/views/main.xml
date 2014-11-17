@@ -1,11 +1,12 @@
 <Alloy>
 	<Window backgroundImage="/lib/main_page/main_bg.png">
+		<ImageView id="top_clear" image="/lib/top_clear.png"></ImageView>
 		<ImageView id="main_flower" image="/lib/main_page/main_flower.png"></ImageView>
-		<ImageView id="topbg" image="/lib/topbg.png"></ImageView>
 		<Button id="btn_house" onClick="house"></Button>
 		<Button id="btn_camera" onClick="camera"></Button>
 		<Button id="btn_check" onClick="check"></Button>
 		<Button id="btn_search" onClick="search"></Button>
 		<Button id="btn_shopping" onClick="shopping"></Button>
+		
 	</Window>
 </Alloy>

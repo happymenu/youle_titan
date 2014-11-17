@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="topbg" image="/lib/topbg.png"></ImageView>
+		<ImageView id="topbg" image="/lib/top_clear.png"></ImageView>
 		<ScrollView id="scroll_view" contentWidth="auto" width="100%">
 			<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
 			<ImageView id="in_house_image" image="/lib/main_page/in_house_image.png" width="100%"></ImageView>

@@ -1,0 +1,79 @@
+
+".container" : {
+  
+}
+"#shopping_main":{
+	width:'100%',
+	top:0,
+	zIndex:1
+}
+"#back":{
+	top:'15%',
+	left:'2%',
+	zIndex:3
+}
+"#shopping_sleep":{
+	left:0,
+	top:'33%',
+	width:'65%',
+	height:'33%',
+	zIndex:2
+}
+"#shopping_breast":{
+	right:0,
+	top:'33%',
+	width:'35%',
+	height:'33%',
+	zIndex:2
+}
+"#shopping_bathe":{
+	left:0,
+	top:'66%',
+	width:'50%',
+	height:'17%',
+	zIndex:2
+}
+"#shopping_clean":{
+	right:0,
+	//top:327,
+	top:'66%',
+	width:'50%',
+	height:'25%',
+	zIndex:2
+}
+"#shopping_clothes":{
+	left:0,
+	top:'80%',
+	width:'50%',
+	height:'20%',
+	zIndex:2
+}
+/*
+"#shopping_sick":{
+	right:0,
+	top:'85%',
+   width:'50%',
+   zIndex:2	
+}
+"#shopping_other":{
+	left:0,
+	top:'95%',
+	width:'65%',
+	zIndex:2
+}
+*/
+"#scroll_view_shopping":{
+	zIndex:2
+}
+"#search_bar":{
+	top:125,
+	left:60,
+	width:200,
+	height:40,
+	zIndex:3,
+	hintText:'   请输入...',
+	showCancel:false,
+	backgroundImage:'/lib/search/search_icon.png',
+	accessibilityHidden:true
+}
+

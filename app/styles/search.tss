@@ -8,7 +8,7 @@
 	height:'100%'
 }
 "#back":{
-	top:70,
+	top:75,
 	left:5,
 	zIndex:2
 }
@@ -18,7 +18,7 @@
 	height:'25%'
 }
 "#search_bar":{
-	top:113,
+	top:124,
 	left:50,
 	width:200,
 	height:40,
@@ -26,7 +26,8 @@
 	hintText:'   请输入...',
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
-	barColor:'transparent'
+	barColor:'transparent',
+	backgroundColor:'transparent'
 }
 "#btn_know":{
 	top:260,

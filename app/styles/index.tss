@@ -2,23 +2,12 @@
 	backgroundColor: "white",
 	tabBarHidden:true
 }
-
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#BABABA"
-}
-
-"#label": {
-	font: {
-		fontSize: 20
-	}
-}
 "#btn_login":{
-	top:234,
+	//top:270,
+	top:'50%',
 	width:120,
 	height:30
-}
+	}
 //"#image_view":{
 	//image:"/lib/welcome.png",
 	//width: Ti.UI.FILL
@@ -26,5 +15,34 @@
 //"#image_login":{
 	//image:"/lib/login/login_background.png",
 //}
-
+"#username":{
+	width:'45%',
+	height:'10%',
+	//top:191,
+	top:'36%',
+	//left:75,
+	left:'21%',
+	zIndex:3,
+	color:'black',
+	font:{
+		fontSize:15
+   },
+   backgroundColor:'transparent'
+   //borderStyle:0,
+   //textAlign:0
+}
+"#userpwd":{
+	width:'45%',
+	height:'10%',
+	//top:224,
+	top:'42%',
+	left:'21%',
+	zIndex:3,
+	color:'black',
+	font:{
+		fontSize:18
+	},
+	passwordMask:true,
+	backgroundColor:'transparent'
+}
 

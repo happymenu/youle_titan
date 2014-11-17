@@ -1,13 +1,14 @@
 <Alloy>
-	<Window class="contariner">
-		<ImageView id="main_top_right" image="/lib/main_page/main_top_right.png"></ImageView>
+	<Window class="container">
+		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
+		<ImageView id="main_top_right" image="/lib/top_clear.png"></ImageView>
 		<ImageView id="id_know_lib" image="/lib/search/know_lib_bg.png"></ImageView>
-		<Button id="yuezi_mom" onClick="yuezi_mom">月子妈妈</Button>
-		<Button id="dictionary">孕产婴词典</Button>
-		<Button id="yuezi_baby">月子宝宝</Button>
-		<Button id="grow_up">生长发育</Button>
-		<Button id="privacy">政策法规</Button>
-		<Button id="make_love">孕期ML吗－demo</Button>
-		<Button id="cock_hen">公鸡母鸡demo</Button>
+		<Button id="yuezi_mom" onClick="yuezi_mom"></Button>
+		<Button id="dictionary" onClick="dictionary">孕产婴词典</Button>
+		<Button id="yuezi_baby" onClick="yuezi_baby"></Button>
+		<Button id="grow_up" onClick="grow_up"></Button>
+		<Button id="privacy" onClick="privacy"></Button>
+		<Button id="make_love" onClick="make_love"></Button>
+		<Button id="cock_hen" onClick="cock_hen"></Button>
 	</Window>
 </Alloy>

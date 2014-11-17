@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView width="100%" backgroundColor="white">
+			<Button id="back" onClick="back"></Button>
+		<ImageView id="privacy" image="/lib/search/privacy.jpg" top="0" zIndex="2"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>

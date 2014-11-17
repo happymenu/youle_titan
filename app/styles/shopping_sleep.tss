@@ -1,0 +1,12 @@
+
+".container" : {
+  
+}
+"#back":{
+	 left:0,
+	 top:0,
+	 width:"15%",
+	 height:"25%",
+	 zIndex:3,
+	 backgroundColor:'transparent'
+}

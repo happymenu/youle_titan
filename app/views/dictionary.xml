@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView width="100%">
+			<Button id="back" onClick="back"></Button>
+		<ImageView id="dic" image="/lib/search/dictionary.jpg" top="0"></ImageView>
+		</ScrollView>
+	</Window>
+</Alloy>
