@@ -27,7 +27,8 @@
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
 	barColor:'transparent',
-	backgroundColor:'transparent'
+	backgroundColor:'transparent',
+	color:'black'
 }
 "#btn_know":{
 	top:260,

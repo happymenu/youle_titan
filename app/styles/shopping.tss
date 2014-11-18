@@ -7,9 +7,12 @@
 	height:'100%'
 }
 "#back":{
-	top:75,
-	left:5,
-	zIndex:3
+	//top:75,
+	//left:5,
+	//zIndex:3
+	top:"1%",
+	left:"3%",
+	zIndex:2
 }
 "#stay":{
 	left:0,
@@ -27,5 +30,6 @@
 	hintText:'   请输入...',
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
-	accessibilityHidden:true
+	accessibilityHidden:true,
+	color:'black'
 }

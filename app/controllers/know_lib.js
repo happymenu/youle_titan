@@ -1,26 +1,30 @@
-function yuezi_mom(e){
+function yuezi_mom(){
 	Alloy.createController('yuezi_mom').getView().open();
 }
-function dictionary(e){
+function dictionary(){
 	Alloy.createController('dictionary').getView().open();
 }
-function yuezi_baby(e){
+function yuezi_baby(){
 	Alloy.createController('yuezi_baby').getView().open();
 }
-function grow_up(e){
+function grow_up(){
 	Alloy.createController('grow_up').getView().open();
 }
-function privacy(e){
+function privacy(){
 	Alloy.createController('privacy').getView().open();
 }
-function make_love(e){
+function make_love(){
 	Alloy.createController('make_love').getView().open();
 }
-function cock_hen(e){
+function cock_hen(){
 	Alloy.createController('cock_hen').getView().open();
 }
-function back(e){
-	Alloy.createController('search').getView().open();
+function back(){
+	//Alloy.createController('search').getView().open();
+		Ti.App.addEventListener('close_know',function(){
+		$.know_lib.close();
+	});
+	Ti.App.fireEvent('close_know');
 }
-$.know_lib.open();
+$.know_lib.open(); 
 

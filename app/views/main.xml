@@ -7,6 +7,5 @@
 		<Button id="btn_check" onClick="check"></Button>
 		<Button id="btn_search" onClick="search"></Button>
 		<Button id="btn_shopping" onClick="shopping"></Button>
-		
 	</Window>
 </Alloy>

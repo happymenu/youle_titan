@@ -2,7 +2,7 @@
 	<Window class="container">
 		<ScrollView width="100%">
 			<Button id="back" onClick="back"></Button>
-		<ImageView id="grow_up" image="/lib/search/grow_up.jpg" top="0" width="100%"></ImageView>
+		<ImageView id="id_grow" image="/lib/search/grow_up.jpg" top="0" width="100%"></ImageView>
 		</ScrollView>
 	</Window>
 </Alloy>

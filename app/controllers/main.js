@@ -1,4 +1,4 @@
-function house(e){
+function house(){
 	var house_win = Alloy.createController('house').getView();
 	house_win.open();
 	//显示时间
@@ -40,7 +40,7 @@ var label_time = Titanium.UI.createLabel({
 house_win.add(label_time);
 //显示时间结束
 }
-function camera(e){
+function camera(){
 	var camera_win = Alloy.createController('camera').getView();
 	camera_win.open();
 	//显示时间
@@ -82,7 +82,7 @@ var label_time = Titanium.UI.createLabel({
 camera_win.add(label_time);
 //显示时间结束
 }
-function check(e){
+function check(){
 	var check_win = Alloy.createController('check').getView();
 	check_win.open();
 	//显示时间
@@ -124,7 +124,7 @@ var label_time = Titanium.UI.createLabel({
 check_win.add(label_time);
 //显示时间结束
 }
-function search(e){
+function search(){
 	var search_win = Alloy.createController('search').getView();
 	search_win.open();
 	//显示时间
@@ -166,7 +166,7 @@ var label_time = Titanium.UI.createLabel({
 search_win.add(label_time);
 //显示时间结束
 }
-function shopping(e){
+function shopping(){
 	var shopping_win = Alloy.createController('shopping').getView();
 	shopping_win.open();
 	//显示时间
@@ -211,9 +211,6 @@ shopping_win.add(label_time);
 
 
 
-
-$.main.open();
-
 //显示时间
     function getDateTime() {
     var now     = new Date(); 
@@ -251,3 +248,6 @@ var label_time = Titanium.UI.createLabel({
 });
 Ti.UI.currentWindow.add(label_time);
 //显示时间结束
+
+
+$.main.open();

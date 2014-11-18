@@ -1,7 +1,7 @@
-function doClick(e) {
+function doClick() {
     alert($.label.text);
 }
-function do_login(e){
+function do_login(){
 	var main_win = Alloy.createController('main').getView();
 	main_win.open();
 	main_win.addEventListener('open', function() {

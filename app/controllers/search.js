@@ -1,5 +1,6 @@
-function back(e){
-	var main_win = Alloy.createController('main').getView();
+/*
+function back(){
+		var main_win = Alloy.createController('main').getView();
 	main_win.open();
 	//显示时间
     function getDateTime() {
@@ -26,6 +27,7 @@ function back(e){
     if(second.toString().length == 1) {
         var second = '0'+second;
     }*/   
+    /*
     var dateTime = year+'年'+month+'月'+day+'日';//+hour+':'+minute+':'+second;   
      return dateTime;
 }
@@ -38,8 +40,14 @@ var label_time = Titanium.UI.createLabel({
 });
 main_win.add(label_time);
 //显示时间结束
+}*/
+function back(){
+		Ti.App.addEventListener('close_search',function(){
+		$.search.close();
+	});
+	Ti.App.fireEvent('close_search');
 }
-function know(e){
+function know(){
 	var know_win = Alloy.createController('know_lib').getView();
 	know_win.open();
 	//显示时间

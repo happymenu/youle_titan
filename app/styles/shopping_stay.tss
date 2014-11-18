@@ -74,6 +74,7 @@
 	hintText:'   请输入...',
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
-	accessibilityHidden:true
+	accessibilityHidden:true,
+	color:'black'
 }
 
