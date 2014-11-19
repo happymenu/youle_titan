@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="topbg" image="/lib/topbg"></ImageView>
+		<ImageView id="top_clear" image="/lib/top_clear"></ImageView>
 		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
 		<ImageView id="search_main" image="/lib/search/search_main.png"></ImageView>
 		<SearchBar id="search_bar"></SearchBar>

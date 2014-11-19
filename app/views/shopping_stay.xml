@@ -1,18 +1,19 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="top_clear" image="/lib/top_clear.png" top="0" height="15%" width="100%" zIndex="3"></ImageView>
-		<ImageView id="shopping_main" image="/lib/shopping/shoppingbg.png"></ImageView>
-		<ScrollView id="scroll_view_shopping">
-			<SearchBar id="search_bar"></SearchBar>
-			<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
-			<ImageView id="shopping_sleep" image="/lib/shopping/shopping_sleep.png" onClick="shopping_sleep"></ImageView>
-			<ImageView id="shopping_breast" image="/lib/shopping/shopping_breast.png"></ImageView>
-			<ImageView id="shopping_bathe" image="/lib/shopping/shopping_bathe.png"></ImageView>
-			<ImageView id="shopping_clean" image="/lib/shopping/shopping_clean.png"></ImageView>
-			<ImageView id="shopping_clothes" image="/lib/shopping/shopping_clothes.png"></ImageView>
-			<!--<ImageView id="shopping_sick" image="/lib/shopping/shopping_sick.png"></ImageView>
-			<ImageView id="shopping_other" image="/lib/shopping/shopping_other.png"></ImageView>
-		-->
+		<!--<ImageView id="top_clear" image="/lib/top_clear.png" top="0" height="15%" width="100%" zIndex="3"></ImageView>-->
+
+		<ScrollView contentWidth="auto"  width="100%">
+			<ImageView id="id_main" image="/lib/shopping/shopping_no_icon.png" top="0" width="100%"></ImageView>
+			<ImageView id="back" image="/lib/back.png" onClick="back" top="13.5%" left="2%"></ImageView>
+			<SearchBar id="search_bar" width="60%" height="8%" top="20%"></SearchBar>
+			<ImageView id="id_sleep" image="/lib/shopping/shopping_sleep.png" onClick="shopping_sleep" left="0" top="29%" width="65%" height="33%"></ImageView>
+			<ImageView id="id_breast" image="/lib/shopping/shopping_breast.png" right="0" top="29%" height="33%" width="35%"></ImageView>
+			<ImageView id="id_bathe" image="/lib/shopping/shopping_bathe.png" left="0" top="60%" width="50%" height="13%"></ImageView>
+			<ImageView id="id_clean" image="/lib/shopping/shopping_clean.png" right="0" top="60%" width="50%" height="22%" ></ImageView>
+			<ImageView id="id_clothes" image="/lib/shopping/shopping_clothes.png" left="0" top="72%" width="50%" height="22%"></ImageView>
+			<ImageView id="id_sick" image="/lib/shopping/shopping_sick.png" right="0" top="80%" width="50%" height="13%" ></ImageView>
+			<ImageView id="id_other" image="/lib/shopping/shopping_other.png" left="0" top="92%" height="15%" width="65%"></ImageView>
+
 		</ScrollView>
 	</Window>
 </Alloy>

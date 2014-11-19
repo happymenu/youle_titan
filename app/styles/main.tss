@@ -3,37 +3,38 @@
   
 }
 "#main_flower":{
-	top:115,
+	//top:115,
+	top:'24%',
 	width:'80%'
 }
 "#btn_house":{
-	top:200,
+	top:'40%',
 	width:'20%',
-	height:'17%',
+	height:'15%',
 	backgroundColor:'transparent'	
 }
 "#btn_camera":{
-	top:136,
+	top:'26%',
 	width:'25%',
 	height:'15%',
 	backgroundColor:'transparent'
 }
 "#btn_check":{
-	top:185,
-	left:60,
+	top:'36%',
+	left:'18%',
 	width:'20%',
 	height:'21%',
 	backgroundColor:'transparent'
 }
 "#btn_search":{
-	top:270,
+	top:'54%',
 	width:'25%',
 	height:'15%',
 	backgroundColor:'transparent'
 }
 "#btn_shopping":{
-	top:185,
-	left:200,
+	top:'36%',
+	right:'18%',
 	width:'20%',
 	height:'20%',
 	backgroundColor:'transparent'

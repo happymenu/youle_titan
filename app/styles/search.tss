@@ -8,9 +8,9 @@
 	height:'100%'
 }
 "#back":{
-	top:75,
-	left:5,
-	zIndex:2
+	top:'15%',
+	left:'2%',
+	zIndex:3
 }
 "#topbg":{
 	top:0,
@@ -18,21 +18,23 @@
 	height:'25%'
 }
 "#search_bar":{
-	top:124,
-	left:50,
-	width:200,
-	height:40,
+	//top:125,
+	//left:60,
+	top:'23%',
+	width:'60%',
+	left:'22%',
+	//height:40,
+	height:'8%',
 	zIndex:3,
 	hintText:'   请输入...',
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
-	barColor:'transparent',
-	backgroundColor:'transparent',
+	accessibilityHidden:true,
 	color:'black'
 }
 "#btn_know":{
-	top:260,
-	left:40,
+	bottom:'24%',
+	left:'21%',
 	width:'30%',
 	height:'20%',
 	backgroundColor:'transparent'

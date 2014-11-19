@@ -1,75 +1,89 @@
-
 ".container" : {
   
 }
-"#shopping_main":{
+"#back":{
+	//top:'15%',
+	//left:'2%',
+	zIndex:3
+}
+/*
+"#id_main":{
 	width:'100%',
 	top:0,
 	zIndex:1
 }
-"#back":{
-	top:'15%',
-	left:'2%',
-	zIndex:3
-}
-"#shopping_sleep":{
+
+"#id_sleep":{
 	left:0,
-	top:'33%',
+	//top:'33%',
+	top:200,
 	width:'65%',
 	height:'33%',
 	zIndex:2
 }
-"#shopping_breast":{
+"#id_breast":{
 	right:0,
-	top:'33%',
+	//top:'33%',
+	top:200,
 	width:'35%',
 	height:'33%',
 	zIndex:2
 }
-"#shopping_bathe":{
+"#id_bathe":{
 	left:0,
-	top:'66%',
+	//top:'66%',
+	top:327,
 	width:'50%',
 	height:'17%',
 	zIndex:2
 }
-"#shopping_clean":{
+"#id_clean":{
 	right:0,
-	//top:327,
-	top:'66%',
+	top:327,
+	//top:'66%',
 	width:'50%',
 	height:'25%',
 	zIndex:2
 }
-"#shopping_clothes":{
+"#id_clothes":{
 	left:0,
-	top:'80%',
+	//top:'80%',
+	top:400,
 	width:'50%',
 	height:'20%',
 	zIndex:2
 }
-/*
-"#shopping_sick":{
+
+"#id_sick":{
 	right:0,
-	top:'85%',
+	//top:'85%',
+	top:450,
    width:'50%',
    zIndex:2	
 }
-"#shopping_other":{
+"#id_other":{
 	left:0,
-	top:'95%',
+	bottom:0,
 	width:'65%',
 	zIndex:2
 }
-*/
+
 "#scroll_view_shopping":{
 	zIndex:2
 }
+*/
 "#search_bar":{
-	top:125,
-	left:60,
-	width:200,
-	height:40,
+	//top:125,
+	//left:60,
+	
+	//top:'23%',
+	//width:'60%',
+	//left:'22%',
+	
+	
+	//height:40,
+	
+	//height:'8%',
 	zIndex:3,
 	hintText:'   请输入...',
 	showCancel:false,
@@ -77,4 +91,7 @@
 	accessibilityHidden:true,
 	color:'black'
 }
+
+
+
 

@@ -5,5 +5,6 @@
 			<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
 			<ImageView id="in_house_image" image="/lib/main_page/in_house_image.png" width="100%"></ImageView>
 		</ScrollView>
+		<ImageView id="id_house_camera" image="/lib/main_page/house_camera.png" bottom="5%" left="5%" onClick="show_cam"></ImageView>
 	</Window>
 </Alloy>

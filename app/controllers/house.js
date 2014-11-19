@@ -6,3 +6,8 @@ function back(){
 	});
 	Ti.App.fireEvent('close_house');
 }
+function show_cam(){
+	var cam_win = Alloy.createController('cam').getView();
+	cam_win.open();
+	
+}

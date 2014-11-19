@@ -10,8 +10,8 @@
 	//top:75,
 	//left:5,
 	//zIndex:3
-	top:"1%",
-	left:"3%",
+	top:"15%",
+	left:"2%",
 	zIndex:2
 }
 "#stay":{
@@ -22,10 +22,13 @@
 	backgroundColor:'transparent'
 }
 "#search_bar":{
-	top:125,
-	left:60,
-	width:200,
-	height:40,
+	//top:125,
+	//left:60,
+	top:'23%',
+	width:'60%',
+	left:'22%',
+	//height:40,
+	height:'8%',
 	zIndex:3,
 	hintText:'   请输入...',
 	showCancel:false,

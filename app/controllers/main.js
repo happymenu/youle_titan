@@ -248,6 +248,3 @@ var label_time = Titanium.UI.createLabel({
 });
 Ti.UI.currentWindow.add(label_time);
 //显示时间结束
-
-
-$.main.open();

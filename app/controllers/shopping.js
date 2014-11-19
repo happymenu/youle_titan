@@ -7,6 +7,7 @@ function back(){
 function stay(){
 	var stay_win = Alloy.createController('shopping_stay').getView();
 	stay_win.open();
+	
 	//显示时间
     function getDateTime() {
     var now     = new Date(); 
@@ -40,9 +41,9 @@ var label_time = Titanium.UI.createLabel({
   font: { fontSize:12 },
   text:getDateTime(),
   top:'6%',
-  right:'2%'
+  right:'2%',
+  zIndex:5
 });
 stay_win.add(label_time);
 //显示时间结束
-	
 }
