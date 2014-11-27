@@ -1,9 +1,16 @@
+function touch_start_back(){
+	$.back.opacity=0.5;
+}
+function touch_end_back(){
+	$.back.opacity=1;
+}
 function back(){
 		Ti.App.addEventListener('close_shopping',function(){
 		$.shopping.close();
 	});
 	Ti.App.fireEvent('close_shopping');
 }
+
 function stay(){
 	var stay_win = Alloy.createController('shopping_stay').getView();
 	stay_win.open();
@@ -38,7 +45,7 @@ function stay(){
 }
 var label_time = Titanium.UI.createLabel({
 	 color: 'white',
-  font: { fontSize:12 },
+  font: { fontSize:'15%' },
   text:getDateTime(),
   top:'6%',
   right:'2%',

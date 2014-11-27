@@ -1,9 +1,13 @@
 <Alloy>
 	<Window class="container">
 		<ImageView id="top_clear" image="/lib/top_clear"></ImageView>
-		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
-		<ImageView id="search_main" image="/lib/search/search_main.png"></ImageView>
-		<SearchBar id="search_bar"></SearchBar>
-		<Button id="btn_know" onClick="know"></Button>
+		<ImageView id="back" image="/lib/back.png" onClick="back" onTouchstart="touch_start_back"  onTouchend="touch_end_back"></ImageView>
+		<ImageView id="search_main" image="/lib/search/search_main_2.png"></ImageView>
+		<!--<SearchBar id="search_bar"></SearchBar>-->
+		<View backgroundImage="/lib/search/search_icon.png" top="24%" zIndex="3" width="53%" height="8%" left="25%">
+			<TextField id="text_field" hintText="请输入..." color="black" width="80%" backgroundColor="transparent"></TextField>
+		</View>
+		<!--<Button id="btn_know" onClick="know"></Button>-->
+		<ImageView id="know_image" onClick="know" onTouchstart="touch_start_know" onTouchend="touch_end_know" image="/lib/search/know_lib.png" left="12.8%" top="56.5%" width="32.4%" zIndex="3"></ImageView>
 	</Window>
 </Alloy>

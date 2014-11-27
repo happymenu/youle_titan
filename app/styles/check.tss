@@ -3,9 +3,9 @@
   
 }
 "#back":{
-	top:75,
-	left:5,
-	zIndex:3
+	top:"15%",
+	left:"5%",
+	zIndex:2
 }
 "#check_main":{
 	top:0,

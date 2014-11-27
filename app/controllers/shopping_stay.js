@@ -1,3 +1,9 @@
+function touch_start_back(){
+	$.back.opacity=0.5;
+}
+function touch_end_back(){
+	$.back.opacity=1;
+}
 function back() {
 	//var main_win = Alloy.createController('main').getView();
 	//main_win.open();
@@ -6,7 +12,12 @@ function back() {
 	});
 	Ti.App.fireEvent('close_stay');
 }
-
+function touch_start_sleep(){
+	$.id_sleep.opacity=0.5;
+}
+function touch_end_sleep(){
+	$.id_sleep.opacity=1;
+}
 function shopping_sleep() {
 	var sleep_win = Alloy.createController('shopping_sleep').getView();
 	sleep_win.open();

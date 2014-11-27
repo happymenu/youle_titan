@@ -2,47 +2,36 @@
 	backgroundColor: "white",
 	tabBarHidden:true
 }
-"#btn_login":{
-	//top:270,
-	top:'50%',
-	width:120,
-	height:30
-	}
-//"#image_view":{
-	//image:"/lib/welcome.png",
-	//width: Ti.UI.FILL
-//}
-//"#image_login":{
-	//image:"/lib/login/login_background.png",
-//}
+"#img_login":{
+	top:'1%',
+	width:'43%',
+	height:'5%'
+}
+"#img_rg":{
+	width:'43%',
+	height:'5%'
+}
+
 "#username":{
-	width:'45%',
-	height:'10%',
-	//top:191,
-	top:'36%',
-	//left:75,
-	left:'21%',
-	zIndex:3,
+	width:'55%',
+	height:'6%',
+	top:'38%',
 	color:'black',
 	font:{
-		fontSize:15
-   },
-   backgroundColor:'transparent'
-   //borderStyle:0,
-   //textAlign:0
+		fontSize:18
+   }
 }
+
 "#userpwd":{
-	width:'45%',
-	height:'10%',
-	//top:224,
-	top:'42%',
-	left:'21%',
-	zIndex:3,
+	width:'53%',
+	height:'6%',
 	color:'black',
 	font:{
 		fontSize:18
 	},
-	passwordMask:true,
-	backgroundColor:'transparent'
+	passwordMask:true
 }
-
+"#login_background":{
+	width:'70%',
+	height:'30%'
+}

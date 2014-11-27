@@ -3,12 +3,12 @@
 		<ImageView id="back" image="/lib/back.png" onClick="back"></ImageView>
 		<ImageView id="main_top_right" image="/lib/top_clear.png"></ImageView>
 		<ImageView id="id_know_lib" image="/lib/search/know_lib_bg.png"></ImageView>
-		<Button id="yuezi_mom" onClick="yuezi_mom"></Button>
-		<Button id="dictionary" onClick="dictionary">孕产婴词典</Button>
-		<Button id="yuezi_baby" onClick="yuezi_baby"></Button>
-		<Button id="grow_up" onClick="grow_up"></Button>
-		<Button id="privacy" onClick="privacy"></Button>
-		<Button id="make_love" onClick="make_love"></Button>
-		<Button id="cock_hen" onClick="cock_hen"></Button>
+		<Button id="yuezi_mom" onClick="yuezi_mom" onTouchstart="touch_start_mom" onTouchend="touch_end_mom"></Button>
+		<Button id="dictionary" onClick="dictionary" onTouchstart="touch_start_dic" onTouchend="touch_end_dic">孕产婴词典</Button>
+		<Button id="yuezi_baby" onClick="yuezi_baby" onTouchstart="touch_start_baby" onTouchend="touch_end_baby"></Button>
+		<Button id="grow_up" onClick="grow_up" onTouchstart="touch_start_grow" onTouchend="touch_end_grow"></Button>
+		<Button id="privacy" onClick="privacy" onTouchstart="touch_start_pri" onTouchend="touch_end_pri"></Button>
+		<Button id="make_love" onClick="make_love" onTouchstart="touch_start_love" onTouchend="touch_end_love"></Button>
+		<Button id="cock_hen" onClick="cock_hen" onTouchstart="touch_start_cock" onTouchend="touch_end_cock"></Button>
 	</Window>
 </Alloy>

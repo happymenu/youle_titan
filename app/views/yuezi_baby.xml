@@ -2,7 +2,13 @@
 	<Window class="container">
 		<ScrollView width="100%">
 			<Button id="back" onClick="back"></Button>
-		<ImageView id="baby" image="/lib/search/yuezi_baby.jpg" top="0"></ImageView>
+			<View layout="vertical">
+			<ImageView image="/lib/search/yuezi_baby_1.png" top="0" width="100%"></ImageView>
+			<ImageView image="/lib/search/yuezi_baby_2.png" top="0" width="100%"></ImageView>
+			<ImageView image="/lib/search/yuezi_baby_3.png" top="0" width="100%"></ImageView>
+			<ImageView image="/lib/search/yuezi_baby_4.png" top="0" width="100%"></ImageView>
+			<ImageView image="/lib/search/yuezi_baby_5.png" top="0" width="100%"></ImageView>
+			</View>
 		</ScrollView>
 	</Window>
 </Alloy>

@@ -1,10 +1,14 @@
 <Alloy>
 	<Window class="container" navBarHidden="true">
-	<View id="login_welcome" backgroundImage="/lib/welcome.png">
-		<TextField id="username"></TextField>
-		<TextField id="userpwd"></TextField>
-		<ImageView id="login_background" image="/lib/login/login_all.png"></ImageView>
-		<ImageView id="btn_login" onClick="do_login"></ImageView>
-	</View>
+		<View id="login_welcome" backgroundImage="/lib/welcome.png">
+			<ImageView id="login_background" image="/lib/login/login_bg.png" ></ImageView>
+			<View layout="vertical">
+				<TextField id="username" backgroundImage="/lib/login/username_field.png"></TextField>
+				<TextField id="userpwd" backgroundImage="/lib/login/password_field.png"></TextField>
+				<ImageView id="img_login" image="/lib/login/only_login.png" onClick="do_login" onTouchstart="touch_start_login" onTouchend="touch_end_login"></ImageView>
+				<ImageView id="img_rg" image="/lib/login/login_rg.png"></ImageView>
+			</View>
+		</View>
 	</Window>
 </Alloy>
+<!--borderColor="#87abc9"-->

@@ -1,11 +1,20 @@
 <Alloy>
 	<Window backgroundImage="/lib/main_page/main_bg.png">
 		<ImageView id="top_clear" image="/lib/top_clear.png"></ImageView>
-		<ImageView id="main_flower" image="/lib/main_page/main_flower.png"></ImageView>
+		<!--<ImageView id="main_flower" image="/lib/main_page/main_flower.png"></ImageView>backgroundSelectedColor="/lib/main_page/selected_search.png"-->
+		<View>
+			<ImageView id="main_house" image="/lib/main_page/main_house.png" backgroundSelectedImage="/lib/main_page/selected_house.png" zIndex="3" width="25%" top="42%" onClick="house"></ImageView>
+			<ImageView id="main_search" image="/lib/main_page/main_search.png" zIndex="2" width="35%" bottom="32%" onClick="search" onTouchstart="touch_start_search" onTouchend="touch_end_search"></ImageView>
+			<ImageView id="main_shopping" image="/lib/main_page/main_shopping.png" zIndex="2" height="22%" top="38%" right="16%" onClick="shopping" onTouchstart="touch_start_shop" onTouchend="touch_end_shop"></ImageView>
+			<ImageView id="main_camera" image="/lib/main_page/main_camera.png"  zIndex="2" width="35%" top="30%" onClick="camera" onTouchstart="touch_start_cam" onTouchend="touch_end_cam"></ImageView>
+			<ImageView id="main_check" image="/lib/main_page/main_check.png"  zIndex="2" height="22%" top="38.2%" left="16%" onClick="check" onTouchstart="touch_start_check"  onTouchend="touch_end_check"> </ImageView>
+		</View>
+		<!--
 		<Button id="btn_house" onClick="house"></Button>
 		<Button id="btn_camera" onClick="camera"></Button>
 		<Button id="btn_check" onClick="check"></Button>
 		<Button id="btn_search" onClick="search"></Button>
 		<Button id="btn_shopping" onClick="shopping"></Button>
+		-->
 	</Window>
 </Alloy>

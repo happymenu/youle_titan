@@ -3,9 +3,12 @@
   
 }
 "#back":{
-	top:75,
-	left:5,
-	zIndex:3
+	//top:75,
+	//left:5,
+	//zIndex:3
+	top:"15%",
+	left:"5%",
+	zIndex:2
 }
 "#diary":{
 	top:0,

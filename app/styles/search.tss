@@ -17,6 +17,7 @@
 	width:'100%',
 	height:'25%'
 }
+/*
 "#search_bar":{
 	//top:125,
 	//left:60,
@@ -30,12 +31,18 @@
 	showCancel:false,
 	backgroundImage:'/lib/search/search_icon.png',
 	accessibilityHidden:true,
-	color:'black'
-}
+	color:'black',
+	backgroundColor:"transparent"
+}*/
 "#btn_know":{
 	bottom:'24%',
 	left:'21%',
 	width:'30%',
 	height:'20%',
 	backgroundColor:'transparent'
+}
+"#text_field":{
+	font:{
+		color:'black'
+	}
 }

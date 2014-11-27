@@ -2,7 +2,7 @@
 	<Window class="container">
 		<ScrollView width="100%">
 			<Button id="back" onClick="back"></Button>
-		<ImageView id="dic" image="/lib/search/dictionary.jpg" top="0"></ImageView>
+		<ImageView id="dic" image="/lib/search/dictionary.jpg" top="0" width="100%" height="100%"></ImageView>
 		</ScrollView>
 	</Window>
 </Alloy>

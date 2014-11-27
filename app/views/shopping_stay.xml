@@ -4,9 +4,12 @@
 
 		<ScrollView contentWidth="auto"  width="100%">
 			<ImageView id="id_main" image="/lib/shopping/shopping_no_icon.png" top="0" width="100%"></ImageView>
-			<ImageView id="back" image="/lib/back.png" onClick="back" top="13.5%" left="2%"></ImageView>
-			<SearchBar id="search_bar" width="60%" height="8%" top="20%"></SearchBar>
-			<ImageView id="id_sleep" image="/lib/shopping/shopping_sleep.png" onClick="shopping_sleep" left="0" top="29%" width="65%" height="33%"></ImageView>
+			<ImageView id="back" image="/lib/back.png" onClick="back" onTouchstart="touch_start_back"  onTouchend="touch_end_back" top="13.5%" left="2%"></ImageView>
+			<!--<SearchBar id="search_bar" width="60%" height="8%" top="20%"></SearchBar>-->
+			<View backgroundImage="/lib/search/search_icon.png" top="21%" zIndex="3" width="53%" height="8%" left="25%">
+			<TextField hintText="请输入..." color="black" width="80%" backgroundColor="transparent"></TextField>
+		</View>
+			<ImageView id="id_sleep" image="/lib/shopping/shopping_sleep.png" onClick="shopping_sleep" onTouchstart="touch_start_sleep" onTouchend="touch_end_sleep"h left="0" top="29%" width="65%" height="33%"></ImageView>
 			<ImageView id="id_breast" image="/lib/shopping/shopping_breast.png" right="0" top="29%" height="33%" width="35%"></ImageView>
 			<ImageView id="id_bathe" image="/lib/shopping/shopping_bathe.png" left="0" top="60%" width="50%" height="13%"></ImageView>
 			<ImageView id="id_clean" image="/lib/shopping/shopping_clean.png" right="0" top="60%" width="50%" height="22%" ></ImageView>

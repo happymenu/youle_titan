@@ -1,7 +1,12 @@
-function doClick() {
-    alert($.label.text);
+function touch_start_login(){
+	$.img_login.opacity=0.5;
+}
+function touch_end_login(){
+	$.img_login.opacity=1;
 }
 function do_login(){
+	//$.btn_login.setBorderColor('orange');
+	//$.btn_login.setBorderWidth(2);
 	var main_win = Alloy.createController('main').getView();
 	main_win.open();
 	main_win.addEventListener('open', function() {
@@ -36,8 +41,8 @@ function do_login(){
      return dateTime;
 }
 var label_time = Titanium.UI.createLabel({
-	 color: 'white',
-  font: { fontSize:12 },
+  color: 'white',
+  font: { fontSize:"15%" },
   text:getDateTime(),
   top:'6%',
   right:'2%'
@@ -45,6 +50,15 @@ var label_time = Titanium.UI.createLabel({
 main_win.add(label_time);
 //显示时间结束
 }
+/*
+function u_border(){
+	$.username.borderColor='#66aac6';
+	$.username.borderWidth="2";
+}
+function p_border(){
+	$.userpwd.borderColor="#66aac6";
+	$.userpwd.borderWidth="2";
+}*/
 $.index.open();
 
 

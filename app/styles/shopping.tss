@@ -18,9 +18,10 @@
 	left:0,
 	bottom:0,
 	width:'50%',
-	height:'35%',
+	height:'33%',
 	backgroundColor:'transparent'
 }
+/*
 "#search_bar":{
 	//top:125,
 	//left:60,
@@ -35,4 +36,4 @@
 	backgroundImage:'/lib/search/search_icon.png',
 	accessibilityHidden:true,
 	color:'black'
-}
+}*/
